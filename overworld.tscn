@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[node name="Overworld" type="Node2D"]
+
+[node name="OverinkCity" parent="Overworld" instance_placeholder="res://scenes/regions/overink_city.tscn"]
+[node name="HowlingCitadel" parent="Overworld" instance_placeholder="res://scenes/regions/howling_citadel.tscn"]
+[node name="OtherRegions" parent="Overworld" instance_placeholder="res://scenes/regions/other_regions.tscn"]

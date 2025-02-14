@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[node name="HowlingCitadel" type="Node2D"]
+
+[node name="NPC1" parent="HowlingCitadel" instance_placeholder="res://scenes/npc.tscn"]
+[node name="NPC2" parent="HowlingCitadel" instance_placeholder="res://scenes/npc.tscn"]

@@ -1,0 +1,74 @@
+[gd_scene load_steps=2 format=2]
+
+[node name="CharacterCreation" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="NameLabel" type="Label" parent="."]
+anchor_left = 0.2
+anchor_top = 0.1
+anchor_right = 0.4
+anchor_bottom = 0.2
+text = "Name:"
+
+[node name="NameEdit" type="LineEdit" parent="."]
+anchor_left = 0.4
+anchor_top = 0.1
+anchor_right = 0.6
+anchor_bottom = 0.2
+
+[node name="ClassLabel" type="Label" parent="."]
+anchor_left = 0.2
+anchor_top = 0.3
+anchor_right = 0.4
+anchor_bottom = 0.4
+text = "Class:"
+
+[node name="ClassSelection" type="OptionButton" parent="."]
+anchor_left = 0.4
+anchor_top = 0.3
+anchor_right = 0.6
+anchor_bottom = 0.4
+items = ["Hekatean Weaver", "Lupine Legionnaire", "Artificer", "Inspired", "Umbrevian Wraith"]
+
+[node name="AppearanceLabel" type="Label" parent="."]
+anchor_left = 0.2
+anchor_top = 0.5
+anchor_right = 0.4
+anchor_bottom = 0.6
+text = "Appearance:"
+
+[node name="HairLabel" type="Label" parent="."]
+anchor_left = 0.2
+anchor_top = 0.6
+anchor_right = 0.4
+anchor_bottom = 0.7
+text = "Hair:"
+
+[node name="HairSelection" type="OptionButton" parent="."]
+anchor_left = 0.4
+anchor_top = 0.6
+anchor_right = 0.6
+anchor_bottom = 0.7
+items = ["Short", "Medium", "Long"]
+
+[node name="SkinLabel" type="Label" parent="."]
+anchor_left = 0.2
+anchor_top = 0.7
+anchor_right = 0.4
+anchor_bottom = 0.8
+text = "Skin:"
+
+[node name="SkinSelection" type="OptionButton" parent="."]
+anchor_left = 0.4
+anchor_top = 0.7
+anchor_right = 0.6
+anchor_bottom = 0.8
+items = ["Light", "Medium", "Dark"]
+
+[node name="CreateButton" type="Button" parent="."]
+anchor_left = 0.4
+anchor_top = 0.9
+anchor_right = 0.6
+anchor_bottom = 1.0
+text = "Create Character"

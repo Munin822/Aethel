@@ -1,0 +1,6 @@
+[application]
+config/name="Aethel"
+run/main_scene="res://scenes/main_menu.tscn"
+
+[rendering]
+environment/default_environment="res://default_env.tres"
